@@ -2,11 +2,14 @@
   "name": "students-api",
   "version": "1.0.0",
   "description": "API de estudiantes",
-  "main": "api/server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/server.js",
-    "dev": "json-server --watch db.json --port 3000"
+   "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
   "dependencies": {
     "json-server": "^0.17.4"
   },
