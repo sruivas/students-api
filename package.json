@@ -1,16 +1,16 @@
 {
   "name": "students-api",
   "version": "1.0.0",
-  "description": "API de estudiantes con JSON Server",
+  "description": "API de estudiantes",
   "main": "api/server.js",
   "scripts": {
     "start": "node api/server.js",
     "dev": "json-server --watch db.json --port 3000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
